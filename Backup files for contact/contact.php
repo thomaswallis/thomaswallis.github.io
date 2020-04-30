@@ -10,7 +10,7 @@ if (isset($_POST['contact-submit'])) {
     $txt = "You have recieved an email from ".$contactName.". \n\n".$projectMessage;
 
     mail($mailTo, $subject, $text, $headers);
-    header("Location: index.php?mailsend");
+    header("Location: contact.html?mailsend");
 
 
 }

@@ -4,9 +4,9 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <meta name="author" content="tom wallis-barrett">
+      <meta name="author" content="Tom Wallis">
 
-      <title>contact | tom wallis</title>
+      <title>contact | tom wallis </title>
       <link rel="shortcut icon" type="image/png" href="images/favicon.png">
 
       <!-- stylesheet -->
@@ -59,39 +59,67 @@
 
             <!--------------- navbar ends here --------------->
 
+            <div class="whitespace"></div>
 
-            <!--------------- hero image starts here --------------->
-            <div class="container">
-                  <div class="row">
-                        <div class="col-lg-12 about image wow fadeInUp" data-wow-delay="1s"></div>
-                  </div>
-            </div>
-            <!--------------- hero image ends here --------------->
-
-
-            <!--------------- hero section starts here --------------->
+            <!--------------- hero section starts here say hello 👋 --------------->
             <div class="container">
                   <div class="hero-content">
                         <br><br>
 
                         <div class="row">
-                              <div class="col-lg-12">
-                                    <h3 class="wow fadeInUp" data-wow-delay="1.2s">contact.</h3><br>
+                              <div class="col-lg-8">
 
-                                    <p class="wow fadeInUp" data-wow-delay="1.4s">Hi! thanks for checking out my site, below i have uploaded my CV and cover letter in both word and PDF files</p>
-                                    <a class="wow fadeInUp" data-wow-delay="1.8s" href="mailto:t.wallis98@outlook.com">contact me VIA email</a>
-                                    <p class="wow fadeInUp" data-wow-delay="0"></p>
-                                    <p class="wow fadeInUp" data-wow-delay="1.7s">In my free time I like to work on small projects where I can further my knowledge of development / hardware. Anything from automating my favourite game so i can have some software play the game for me in my sleep to completely dissassembing my macbook and sodering broken connectors, replacing batteries. I also like to travel and be a digital nomad where I can just pick anywhere to spend a few days and work and because of this ive been able to work in some amazing locations.</p>
-                                    <p class="wow fadeInUp" data-wow-delay="1.7s">Here you can download my CV in both Word and PDF format. </p>
-                                    <a class="wow fadeInUp" data-wow-delay="1.9s" href="https://1drv.ms/w/s!Aqs_NAaywYJElmi_Op1FuA2bbwtJ?e=EbhbX9">download word doc</a>
-                                    <a class="wow fadeInUp" data-wow-delay="1.9s" href="mailto:t.wallis98@outlook.com">download PFD doc</a>
-                                    <p class="wow fadeInUp" data-wow-delay="0"></p>
+                                    <h3 class="wow fadeInUp" data-wow-delay="1s">say hello 👋</h3><br>
+                                    <p class="wow fadeInUp" data-wow-delay="1.2s">Got a project you want to send my way? Let me know what youre after by filling out the information below and I will try to get back to you as soon as I can. NOT WORKING NEED TO HOOK UP PHP FUNCTION FOR THIS</p>
 
                               </div>
                         </div>
                   </div>
             </div>
             <!--------------- hero section ends here --------------->
+
+            <!-- <div class="whitespace"></div> -->
+
+            <!--------------- form section starts here --------------->
+            <div class="container-fluid">
+                  <div class="row">
+                        <div class="col-lg-8">
+                              <form name="contact-form" id="contact-form" method="post" action="">
+
+                              <ul>
+
+                              <li class="wow fadeInUp" data-wow-delay="1.4s">
+                                    <label for="contact-name">Name :</label>
+                                    <div class="textarea">
+                                          <input type="text" name="contact-name" id="contact-name" value="" required>
+                                    </div>
+                              </li>
+
+                              <li class="wow fadeInUp" data-wow-delay="1.6s">
+                                    <label for="contact-email">Email :</label>
+                                    <div class="textarea">
+                                          <input type="email" name="contact-email" id="contact-email" value="" required>
+                                    </div>
+                              </li>
+
+                              <li class="wow fadeInUp" data-wow-delay="1.6s">
+                                    <label for="contact-project">Message :</label>
+                                    <div class="textarea">
+                                          <textarea type="email" name="contact-project" id="contact-project" rows="6" value="" required>
+                                          </textarea>
+                                    </div>
+                              </li>
+
+                              </ul>
+
+                              <button type="submit" name="contact-submit" id="contact-submit" class="send wow fadeInUp">Send Message</button>
+
+                              </form>
+                        </div>
+                  </div>
+            </div>
+
+            <!--------------- form section ends here --------------->
 
             <div class="whitespace"></div>
 
@@ -145,7 +173,6 @@
                         </div>
                   </div>
             </div>
-
             <!--------------- footer ends here --------------->
 
             <br><br><br><br>
@@ -192,6 +219,7 @@
       }, 0.1);
 
       // nav animation ends
+
 
       new WOW().init();
 
