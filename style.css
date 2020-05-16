@@ -308,7 +308,7 @@ h6 {
       content: "work.";
       font-family: "Roboto Mono";
       font-size: 36px;
-      position: relative;
+      position: center;
       color: #fff;
       display: block;
       top: 8%;
@@ -326,7 +326,7 @@ h6 {
       content: "scripting.";
       font-family: "Roboto Mono";
       font-size: 36px;
-      position: relative;
+      position: center;
       color: #fff;
       display: block;
       top: 80%;
@@ -344,7 +344,7 @@ h6 {
       content: "travel.";
       font-family: "Roboto Mono";
       font-size: 36px;
-      position: relative;
+      position: center;
       color: #fff;
       display: block;
       top: 80%;
@@ -362,7 +362,7 @@ h6 {
       content: "about me.";
       font-family: "Roboto Mono";
       font-size: 36px;
-      position: relative;
+      position: center;
       color: #fff;
       display: block;
       top: 10%;
@@ -398,7 +398,7 @@ h6 {
       content: "Prior job";
       font-family: "Roboto Mono";
       font-size: 36px;
-      position: relative;
+      position: center;
       color: #fff;
       display: block;
       top: 80%;
