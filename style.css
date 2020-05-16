@@ -23,7 +23,7 @@ html, body {
 
 /*--------------- typewriter effect --------------- */
 .line {
-      width: 24em;
+      width: 28em;
       top: 50%;
       margin: auto;
       border-right: 2px solid rgba(255, 255, 255, 0.75);
@@ -34,8 +34,8 @@ html, body {
 }
 
 .anim-typewriter {
-      animation: typewriter 4s steps(40) 1s 1 normal both,
-      blinkTextCussor 500ms steps(40) infinite normal;
+      animation: typewriter 3s steps(40) 1s 1 normal both,
+      blinkTextCussor 750ms steps(40) infinite normal;
 }
 
 @keyframes typewriter {
@@ -43,11 +43,11 @@ html, body {
             width: 0;
       }
       to {
-            width: 17em;
+            width: 12.5em;
       }
 }
 
-@media(max-width: 768px) {
+@media(max-width: 108px) {
       @keyframes typewriter {
             from {
                   width: 0;
