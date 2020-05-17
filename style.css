@@ -308,13 +308,14 @@ h6 {
       content: "work.";
       font-family: "Roboto Mono";
       font-size: 36px;
-      position: center;
+      position: relative;
       color: #fff;
       display: block;
       top: 8%;
       left: -60%;
       right: 0;
       bottom: 0;
+      overflow:hidden;
 }
 
 .project2 {
@@ -326,7 +327,7 @@ h6 {
       content: "scripting.";
       font-family: "Roboto Mono";
       font-size: 36px;
-      position: center;
+      position: relative;
       color: #fff;
       display: block;
       top: 80%;
@@ -344,7 +345,7 @@ h6 {
       content: "travel.";
       font-family: "Roboto Mono";
       font-size: 36px;
-      position: center;
+      position: relative;
       color: #fff;
       display: block;
       top: 80%;
@@ -362,7 +363,7 @@ h6 {
       content: "about me.";
       font-family: "Roboto Mono";
       font-size: 36px;
-      position: center;
+      position: relative;
       color: #fff;
       display: block;
       top: 10%;
@@ -387,6 +388,7 @@ h6 {
       left: -60%;
       right: 0;
       bottom: 0;
+      overflow:hidden;
 }
 
 .project6 {
