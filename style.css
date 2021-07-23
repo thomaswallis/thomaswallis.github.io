@@ -382,7 +382,7 @@ h6 {
 }
 
 .project5::after {
-      content: "Current job";
+      content: "github";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
@@ -396,12 +396,12 @@ h6 {
 }
 
 .project6 {
-      background: url(images/terias.jpg) no-repeat 50% 50%;
+      background: url(images/fara.jpg) no-repeat 50% 50%;
       background-size: cover;
 }
 
 .project6::after {
-      content: "Prior job";
+      content: "fara as";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
@@ -414,12 +414,12 @@ h6 {
 }
 
 .project7 {
-      background: url(images/scripting.jpg) no-repeat 50% 50%;
+      background: url(images/intandemsolutions.png) no-repeat 50% 50%;
       background-size: cover;
 }
 
 .project7::after {
-      content: "Scripting";
+      content: "intandem solutions";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
@@ -432,12 +432,12 @@ h6 {
 }
 
 .project8 {
-      background: url(https://images.unsplash.com/photo-1435685813800-51ba4ceb9c4a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1785&q=80) no-repeat 50% 50%;
+      background: url(images/teriasconsulting.jpg) no-repeat 50% 50%;
       background-size: cover;
 }
 
 .project8::after {
-      content: "iOS - What2Eat";
+      content: "terias consulting ltd";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
