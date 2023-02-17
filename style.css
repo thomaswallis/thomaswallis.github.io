@@ -328,7 +328,7 @@ h6 {
 }
 
 .project2::after {
-      content: "scripting.";
+      content: "personal projects.";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
@@ -346,7 +346,7 @@ h6 {
 }
 
 .project3::after {
-      content: "travel.";
+      content: "hobbies.";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
@@ -377,7 +377,7 @@ h6 {
 }
 
 .project5 {
-      background: url(images/intandem.jpg) no-repeat 50% 50%;
+      background: url(images/github.png) no-repeat 50% 50%;
       background-size: cover;
 }
 
@@ -396,7 +396,7 @@ h6 {
 }
 
 .project6 {
-      background: url(images/fara.jpg) no-repeat 50% 50%;
+      background: url(images/fara.png) no-repeat 50% 50%;
       background-size: cover;
 }
 
@@ -432,7 +432,7 @@ h6 {
 }
 
 .project8 {
-      background: url(images/teriasconsulting.jpg) no-repeat 50% 50%;
+      background: url(images/teriasconsulting.png) no-repeat 50% 50%;
       background-size: cover;
 }
 
@@ -619,7 +619,7 @@ h6 {
 }
 
 
-/*---------------scripting page --------------- */
+/*---------------personal projects page --------------- */
 
 .scripting {
       height: 500px;
