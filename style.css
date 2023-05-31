@@ -27,7 +27,7 @@ html, body {
 
 /*--------------- typewriter effect --------------- */
 .line {
-      width: 28em;
+      width: 34em;
       top: 50%;
       margin: auto;
       border-right: 2px solid rgba(255, 255, 255, 0.75);
@@ -47,7 +47,7 @@ html, body {
             width: 0;
       }
       to {
-            width: 12.5em;
+            width: 14.5em;
       }
 }
 
@@ -57,7 +57,7 @@ html, body {
                   width: 0;
             }
             to {
-                  width: 17em;
+                  width: 34em;
             }
       }
 }
