@@ -1,7 +1,8 @@
+/* General styles */
 body {
   text-align: center;
   padding: 50px;
-  color:1F1F1D;
+  color: 1f1f1d;
 }
 
 .gif-container img {
@@ -15,15 +16,14 @@ body {
   width: 200px;
   height: 200px;
   margin-bottom: 30px;
-  color:white;
+  color: white;
 }
 
 .h1 {
   width: 500px;
   height: auto;
   font-family: "Comic Sans MS", cursive, sans-serif;
-  color:white;
-
+  color: white;
 }
 
 .button-container {
@@ -55,4 +55,22 @@ body {
   padding: 10px 20px;
   font-size: 24px;
   cursor: pointer;
+}
+
+/* Add media queries to adjust styles for different screen sizes */
+@media (max-width: 600px) {
+  .gif-container {
+      width: 100px;
+      height: 100px;
+  }
+  
+  .h1 {
+      font-size: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .button-container {
+      flex-direction: column;
+  }
 }
