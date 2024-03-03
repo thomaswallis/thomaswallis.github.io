@@ -4,9 +4,9 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <meta name="author" content="Thomas Wallis">
+      <meta name="author" content="tom wallis">
 
-      <title>tom wallis</title>
+      <title>work | tom wallis</title>
       <link rel="shortcut icon" type="image/png" href="images/favicon.png">
 
       <!-- stylesheet -->
@@ -19,9 +19,6 @@
       <!-- google fonts -->
       <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
 
-      <!-- terminal effect -->
-      <script src="t.min.js"></script>
-
       <!-- for on scroll animations -->
       <link rel="stylesheet" href="animate.css">
       <script src="wow.min.js"></script>
@@ -30,7 +27,7 @@
 <body>
       <div class="wrapper">
 
-            <!--------------- navbar starts here --------------->
+             <!--------------- navbar starts here --------------->
             <nav>
                   <span id="brand">
                         <a href="index.html">tom wallis</a>
@@ -59,73 +56,77 @@
                         <li><a href="contact.html">contact<span>.</span></a></li>
                   </ul>
             </div>
+
             <!--------------- navbar ends here --------------->
-
-
+            
+            <div class="whitespace"></div>
 
             <!--------------- hero section starts here --------------->
-            <div class="hero">
-                  <div class="header">
-                        <h1 class="line anim-typewriter">tom wallis | software dev </h1>
+            <div class="container">
+                  <div class="hero-content">
+                        <br><br>
+
+                        <div class="row">
+                              <div class="col-lg-8">
+
+                                    <h3 class="wow fadeInUp" data-wow-delay="1s">work.</h3><br>
+                                    <p class="wow fadeInUp" data-wow-delay="1.2s">i am a self taught developer who has had to learn by being thrown in the deep end with every job and had to learn how to tread water so to speak. please feel free to take a look at my work below. </p>
+
+                              </div>
+                        </div>
                   </div>
             </div>
 
-            <div class="scroll-down"></div>
             <!--------------- hero section ends here --------------->
-
-
 
             <!--------------- projects section starts here --------------->
             <div class="container-fluid">
-                  <br><br><br>
-
-                  <h6>about me</h6>
-
-                  <div class="vertical"></div>
-                  <br>
 
                   <div class="whitespace"></div>
                   <div class="whitespace"></div>
 
+		  <!-- Github projects-->
                   <div class="row">
                         <div class="col-lg-8"></div>
 
-                        <div class="col-lg-4 project project1 wow fadeInUp" onclick="location.href='work.html'"></div>
+                        <div class="col-lg-4 project project5 wow fadeInUp" data-wow-delay="1.4s" onclick="location.href='github.html'"></div>
                   </div>
 
+		  <!-- Fara AS -->
                   <div class="whitespace"></div>
 
                   <div class="row">
-                        <div class="col-lg-6 project project2 wow fadeInUp" onclick="location.href='scripting.html'"></div>
+                        <div class="col-lg-6 project project6 wow fadeInUp" data-wow-delay="1.6s" onclick="location.href='fara.html'"></div>
 
                         <div class="col-lg-6"></div>
                   </div>
 
+		  <!-- Intandem solutions-->
                   <div class="whitespace"></div>
 
                   <div class="row">
                         <div class="col-lg-7"></div>
 
-                        <div class="col-lg-4 project project3 wow fadeInUp" onclick="location.href='hobbies.html'"></div>
+                        <div class="col-lg-4 project project7 wow fadeInUp" data-wow-delay="1.8s" onclick="location.href='intandemsolutions.html'"></div>
 
                         <div class="col-lg-1"></div>
                   </div>
 
+		  <!-- Terias Consulting Ltd-->
                   <div class="whitespace"></div>
 
                   <div class="row">
                         <div class="col-lg-1"></div>
 
-                        <div class="col-lg-5 project project4 wow fadeInUp" onclick="location.href='about.html'"></div>
+                        <div class="col-lg-5 project project8 wow fadeInUp" data-wow-delay="2.0s" onclick="location.href='teriasconsulting.html'"></div>
 
                         <div class="col-lg-6"></div>
                   </div>
 
                   <div class="whitespace"></div>
             </div>
+
             <!--------------- projects section ends here --------------->
-
-
 
             <!--------------- footer starts here --------------->
             <div class="footer">
@@ -135,7 +136,7 @@
                         <div class="collab">
                               <div class="row">
                                     <div class="col-lg-12">
-                                          <p class="wow fadeInUp">got an interesting project? i can help you.</p>
+                                          <p class="wow fadeInUp">Got an interesting project? I can help you.</p>
                                     </div>
                               </div>
                         </div>
@@ -152,7 +153,7 @@
                               <div class="row">
                                     <div class="col-lg-4" id="personal">
                                           <p class="wow fadeInUp">connect with me</p>
-                                          <h4 class="wow fadeInUp" data-wow-delay="0.2s">ig @tom.pgk</h4>
+                                          <h4 class="wow fadeInUp" data-wow-delay="0.2s">ig @tom.pkg</h4>
                                           <br><br>
                                     </div>
 
@@ -162,7 +163,7 @@
                                           <ul>
                                                 <li id="ig" class="wow fadeInUp" data-wow-delay="0.6s">ig</li>
                                                 <li id="tw" class="wow fadeInUp" data-wow-delay="0.8s">tw</li>
-                                                <li id="yt" class="wow fadeInUp" data-wow-delay="0.8s">sp</li>
+                                                <li id="yt" class="wow fadeInUp" data-wow-delay="1s">sp</li>
                                           </ul>
 
                                           <br><br>
@@ -177,6 +178,7 @@
                         </div>
                   </div>
             </div>
+
             <!--------------- footer ends here --------------->
 
             <br><br><br><br>
@@ -190,7 +192,6 @@
       <script type="text/javascript">
 
       // navigation starts here
-
       $("#toggle").click(function() {
             $(this).toggleClass('on');
             $("#resize").toggleClass("active");
@@ -226,6 +227,7 @@
       // nav animation ends
 
       new WOW().init();
+
 
       </script>
 </body>
