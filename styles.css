@@ -25,6 +25,21 @@ body {
   position: relative;
 }
 
+/* Default link color */
+a {
+  color: #fff; /* Black */
+}
+
+/* Pressed link color */
+a:active {
+  color: #000000; /* White */
+}
+
+/* Hovered link color */
+a:hover {
+  color: #000000; /* Light gray */
+}
+
 .welcome-message {
   position: fixed;
   z-index: 1000;

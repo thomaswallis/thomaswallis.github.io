@@ -25,9 +25,18 @@ function processCommand(command) {
     case "greet":
       greetUser();
       break;
+    case "whoami":
+      whoami();
+      break;
     case "cv":
       cv();
       break;
+    case "work":
+      work();
+      break;
+      case "currentproject":
+        currentproject();
+        break;
     default:
       output.innerHTML += `echo: Unknown command\n`;
   }
@@ -42,19 +51,23 @@ function greetUser() {
   output.innerHTML += `Hello, welcome to the interactive shell! type "help" to see a list of commands!\n`;
 }
 
+function currentproject() {
+  output.innerHTML += `Hello, welcome to the interactive shell! type "help" to see a list of commands!\n`;
+}
 function whoami() {
-  const date = new Date();
-  output.innerHTML += `${date.toLocaleString()} \n`;
+  output.innerHTML += `hi, my name is tom and i am a 25 year old software developer living in trondheim\n`;
 }
 
 function work() {
-  const date = new Date();
-  output.innerHTML += `${date.toLocaleString()} \n`;
+  output.innerHTML += `i am currently employed as a system engineer and use the following technologies\n`;
+  output.innerHTML += `scripting languages - batch / python / js / ahk\n`;
+  output.innerHTML += `database - mongodb / sql / mysql\n`;
+  output.innerHTML += `database - mongodb / sql / mysql\n`;
 }
 
 function cv() {
-  const date = new Date();
-  output.innerHTML += `${date.toLocaleString()} \n`;
+  const output = document.getElementById('output');
+  output.innerHTML = '<a href="files/twbcv.pdf" target="_blank">Download File</a>';
 }
 
 function handleInput(event) {
