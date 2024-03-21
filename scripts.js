@@ -59,10 +59,12 @@ function whoami() {
 }
 
 function work() {
-  output.innerHTML += `i am currently employed as a system engineer and use the following technologies\n`;
+  output.innerHTML += `i am currently employed as a system engineer and use the following technologies:\n`;
   output.innerHTML += `scripting languages - batch / python / js / ahk\n`;
-  output.innerHTML += `database - mongodb / sql / mysql\n`;
-  output.innerHTML += `database - mongodb / sql / mysql\n`;
+  output.innerHTML += `database - mongodb / sql\n`;
+  output.innerHTML += `containers - docker / kubernetes\n`;
+  output.innerHTML += `unix based devices\n`;
+  output.innerHTML += `powerbi\n`;
 }
 
 function cv() {
