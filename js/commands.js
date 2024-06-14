@@ -1,26 +1,19 @@
-var dev = "https://dev.to/cosmicwanderer7";
-var twitter = "https://twitter.com/PrithviYewale";
-var linkedin = "https://www.linkedin.com/in/prithvi-yewale-a77275228/";
-var instagram = "https://www.instagram.com/prithvi_yewale/";
-var github = "https://github.com/cosmicwanderer7";
+var linkedin = "https://www.linkedin.com/in/thomas-wallis-barrett-271aa4128/";
+var github = "https://github.com/thomaswallis";
 var sudo = "https://www.youtube.com/watch?v=dQw4w9WgXcQ?autoplay=1";
-var email = "mailto:yewaleprithvi2003@gmail.com";
+var email = "mailto:t.wallis98@outlook.com";
 
 aboutme = [
   "<br>",
   "<span class='underline'>Hey, I'm Tom!👋</span>",
   "<br>",
   "<li>🔭 I’m currently working as a software developer at FaraAS in Trondheim.</li>",
-  "<li>🌱 My fields of intertest are</li>",
+  "<li>🌱 My fields of interest are</li>",
   `<pre class="whitespace-pre-wrap">
-        - Fullstack Development
-        - UI/UX Designing</pre>`,
-  `<li><pre class="whitespace-pre-wrap">👯 I would love to work with anyone who wants to build a 
-   professional website for their business or even a personal 
-   website to showcase their portfolio.
-   I love learning new stuff and using it to improve my skills.
-   I primarily use NextJS and Tailwind CSS when building my 
-   websites (projects).
+        - Scripting
+        - TBD
+        - ML`,
+  `<li><pre class="whitespace-pre-wrap">👯 TEST
    You can learn more about the projects that I have built using 
    the project command.
    You can browse around my website to find out more about 
@@ -28,43 +21,18 @@ aboutme = [
    *Try using a social command.`,
   `<li><pre class="whitespace-pre-wrap">👨‍💻 Check out my github profile to view my projects
    *Use the github command to take a look at my GitHub profile.`,
-  `<li>📫 Contact me at <a href= "https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=yewaleprithvi2003@gmail.com">yewaleprithvi2003@gmail.com</a>`,
+  `<li>📫 Contact me at <a href= "mailto:t.wallis98@outlook.com">t.wallis98@outlook.com</a>`,
   "<br>",
 ];
 
-social = [
-  "<br>",
-  'dev        <a href="' +
-    dev +
-    '" target="blank">dev.to/cosmicwanderer7' +
-    "</a>",
-  'twitter        <a href="' +
-    twitter +
-    '" target="blank">twitter.com/PrithviYewale' +
-    "</a>",
-  'linkedin       <a href="' +
-    linkedin +
-    '" target="blank">linkedin/prithviYewale' +
-    "</a>",
-  'instagram      <a href="' +
-    instagram +
-    '" target="blank">instagram/prithvi_yewale' +
-    "</a>",
-  'github         <a href="' +
-    github +
-    '" target="blank">github/cosmicwanderer7' +
-    "</a>",
-  
-  "<br>",
-];
 
 projects = [
   "<br>",
-  `<a href="https://github.com/cosmicwanderer7/google-clone" target="blank"><span class='underline'>Google Search Clone</span>`,
+  `<a href="'https://github.com/thomaswallis'" target="blank"><span class='underline'>test test</span>`,
   "<br>",
-  `<pre class="indent-8 whitespace-pre-wrap">A functional replica of Google's search page, you can use it for searches. Styled with Tailwind CSS to Rapidly build and look as close as possible to current google search page, the search results are pulled using Googles Programmable Search Engine and it was build using Next.js the react framework.
+  `<pre class="indent-8 whitespace-pre-wrap">test test test.
 
-Project is live here <a href="https://google-clone-p8mn37r8a-cosmicwanderer7.vercel.app/" target="blank">https://google-clone-cosmicwanderer7.vercel.app/</a>
+Project is live here <a href="https://github.com/thomaswallis/" target="blank">https://github.com/thomaswallis/</a>
 *Please do not spam searches.
 
 Built With
@@ -74,35 +42,12 @@ Built With
     *Programmable Search Engine
     *Yarn
 `,
-
-  "<br>",
-
-  `<a href="https://github.com/cosmicwanderer7/contactform" target="blank"><span class='underline'>Contactform With Google Sheets as Database</span>`,
-  "<br>",
-  `<pre class="indent-8 whitespace-pre-wrap">This contact form collects information from the user and saves it to Google Sheets using the Google cloud APIs.
-After filling out the form, the user will receive a personalized email with a link to the form that says their response has been recorded. 
-It was built using Next.JS, the React framework and styled with Tailwind CSS.
-
-Project is live here <a href="https://contactform-psi.vercel.app/" target="blank">https://contactform-psi.vercel.app/</a>
-
-Built With
-
-    *Next.js
-    *Tailwind CSS
-    *Google Sheets api
-    *IFTTT
-    *Yarn
-`,
-
-  "<br>",
 ];
 
 help = [
   `<br><pre class="whitespace-pre-wrap">
   <span class="command">aboutme</span>    
    <span class="command">↳</span>&nbsp;Diplays Who I am?
-  <span class="command">social</span>     
-   <span class="command">↳</span>&nbsp;Lists social networks.
   <span class="command">projects</span>   
    <span class="command">↳</span>&nbsp;View coding projects.
   <span class="command">email</span>      

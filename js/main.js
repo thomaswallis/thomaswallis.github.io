@@ -76,7 +76,7 @@ function commander(cmd) {
       break;
     case "email":
       addLine(
-        'Opening mailto:<a href="mailto:yewaleprithvi2003@gmail.com"> yewaleprithvi2003@gmail.com</a>...',
+        'Opening mailto:<a href="mailto:t.wallis98@outlook.com"> t.wallis98@outlook.com</a>...',
         "color2",
         80,
       );
