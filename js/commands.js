@@ -5,23 +5,25 @@ var email = "mailto:t.wallis98@outlook.com";
 
 aboutme = [
   "<br>",
-  "<span class='underline'>Hey, I'm Tom!👋</span>",
+  "<span class='underline'>hi, my names tom!</span>",
   "<br>",
-  "<li>🔭 I’m currently working as a software developer at FaraAS in Trondheim.</li>",
-  "<li>🌱 My fields of interest are</li>",
+  "<li>i am currently working as a system engineer at fara based in trondheim.</li>",
+  "<li>my interests are</li>",
   `<pre class="whitespace-pre-wrap">
-        - Scripting
-        - TBD
-        - ML`,
-  `<li><pre class="whitespace-pre-wrap">👯 TEST
-   You can learn more about the projects that I have built using 
+        - hardware emulation
+        - private servers
+        - homelab
+        - analogue photography
+        - refurbishing old/damaged equipment`,
+  `<li><pre class="whitespace-pre-wrap"> current projects
+   true07- rebuilding the videogame i played as a child. 
    the project command.
    You can browse around my website to find out more about 
    me.
-   *Try using a social command.`,
-  `<li><pre class="whitespace-pre-wrap">👨‍💻 Check out my github profile to view my projects
-   *Use the github command to take a look at my GitHub profile.`,
-  `<li>📫 Contact me at <a href= "mailto:t.wallis98@outlook.com">t.wallis98@outlook.com</a>`,
+   *there are some easter eggs for fellow developers on the site.`,
+  `<li><pre class="whitespace-pre-wrap">check out my github profile to view my other projects
+   *Use the 'github' command to take a look at my github profile.`,
+  `<li> contact me at <a href= "mailto:t.wallis98@outlook.com">t.wallis98@outlook.com</a>`,
   "<br>",
 ];
 
